@@ -1,0 +1,19 @@
+# Dependencies / build output (not used, kept out defensively)
+node_modules/
+.vercel/
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
